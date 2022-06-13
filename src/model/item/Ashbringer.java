@@ -9,7 +9,7 @@ public class Ashbringer extends Weapon{
 
 	@Override
 	public void attack() {
-		System.out.printf("Retribution for the light!");	
+		System.out.println("Retribution for the light!");	
 	}
     
 	int power = 2000;

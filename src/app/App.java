@@ -7,8 +7,8 @@ public class App
 {
 	public static void main(String[] args)
 	{
-		Hero hero01 = new Hero("Gladiator",50);
-		Raden Raden = new Raden("titan of lightning and thunder", 20, 15, 1, 7000);
+		Hero hero01 = new Hero("Mádara",50);
+		Raden Raden = new Raden("Titan dos raios", 20, 15, 1, 7000);
 		
 		Ashbringer Ashbringer = new Ashbringer("Ashbringer", 2000);
 		
@@ -24,6 +24,9 @@ public class App
 			System.out.println("Round 2");			
 			hero01.attack(Raden);
 			System.out.println("Round 3");
+			Raden.attack(hero01);
+			System.out.println("Round 4");
+			hero01.attack(Raden);
 			return;
 		}
 		}
